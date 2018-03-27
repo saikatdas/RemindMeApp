@@ -10,8 +10,11 @@ script:
   - node -v
 deploy:
   provider: heroku
-  api_key: c3341a28-e3de-427f-ad28-721ef7745ab9 
+  api_key:
+    secure: "339ccde8-d869-43d5-b3e6-68acce76753b"
   app: remindmeapp
+  edge:
+    branch: master
   on:
     repo: saikatdas/RemindMeApp
   web: node index.js
