@@ -7,4 +7,4 @@ install:
   - npm install
   - npm install express --save
 script:
-  - npm test
+  - node -v
