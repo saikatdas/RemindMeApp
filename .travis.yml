@@ -8,3 +8,11 @@ install:
   - npm install express --save
 script:
   - node -v
+deploy:
+  provider: heroku
+  api_key:
+    secure: c3341a28-e3de-427f-ad28-721ef7745ab9
+  app: RemindMeApp
+  on:
+    repo: saikatdas/RemindMeApp
+  web: node index.js
