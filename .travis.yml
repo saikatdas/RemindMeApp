@@ -8,3 +8,7 @@ install:
   - npm install express --save
 script:
   - node -v
+
+"scripts": {
+  "start": "node index.js"
+}
