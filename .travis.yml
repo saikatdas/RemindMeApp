@@ -16,7 +16,7 @@ install:
   local_dir: dpl_cd_upload
   skip_cleanup: true
   on: &2
-    repo: saikatdas/RemindMeApp
+  repo: saikatdas/RemindMeApp
   bucket: remindmeapp
   region: ap-south-1
 - provider: codedeploy
